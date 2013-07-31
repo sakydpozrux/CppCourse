@@ -1,7 +1,25 @@
 CppCourse
 =========
 
-My solutions to tasks for C++ course at University
+My solutions to tasks for **C++ course** at University
+
+
+Usage
+=====
+
+You need C++ compiler with support for C++11. I have tested these programs for both: *clang* and *clang*. If you use *clang* just changing *g++* in each Makefile for *clang++* should be enough.
+
+To compile each task use
+
+    make
+
+then run
+
+    ./main
+
+or (for task 11)
+
+    ./life
 
 
 Memory leaks
@@ -13,3 +31,8 @@ For example:
 
     valgrind --tool=memcheck ./main
 
+
+Contact
+=======
+
+Feel free to [send me an email](mailto:sakydpozrux@gmail.com) if you find any bugs or anything is unclear.
