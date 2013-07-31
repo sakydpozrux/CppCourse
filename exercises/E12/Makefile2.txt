@@ -1,0 +1,23 @@
+
+# Automatically generated Makefile
+# Makefile-generator programmed by Hans de Nivelle, 2002
+
+Flags = -Wreturn-type -pedantic -pedantic-errors -Wundef -std=c++0x 
+Link = -lGLU -lsfml-graphics -lsfml-window -lsfml-system
+CPP = g++ 
+
+rubik : Makefile   rubik.o cube.o sequence.o 
+	$(CPP) $(Flags) $(Link) -o rubik   rubik.o cube.o sequence.o 
+
+rubik.o : Makefile   rubik.cpp   cube.h assert.h sequence.h rotation.h 
+	$(CPP) -c $(Flags) rubik.cpp -o  rubik.o
+
+
+cube.o : Makefile   cube.cpp   sequence.h rotation.h cube.h assert.h 
+	$(CPP) -c $(Flags) cube.cpp -o  cube.o
+
+
+sequence.o : Makefile   sequence.cpp   sequence.h rotation.h cube.h assert.h 
+	$(CPP) -c $(Flags) sequence.cpp -o  sequence.o
+
+

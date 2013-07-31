@@ -1,0 +1,179 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+
+<head>
+   <title> 
+      Laboratory C++ 
+   </title>
+</head>
+
+<body>
+
+
+<h1> Laboratory C++. </h1> 
+
+Tuesdays 8-10, room 7 <br>
+Thursdays 12-14, room 137 </br> 
+
+<h3> June 27th </h3>
+
+Lab will be from 13.15 to 15.15 in room 137. 
+Try to end your tasks by this day.
+
+<h3> End of Teaching Period </h3>
+
+The teaching period has ended. I will continue having labs
+on thursdays 12-14 in room 137, but not anymore on tuesday mornings,
+at least until end of June. Try to complete remaining tasks
+before then. 
+
+<h3> Aim of Laboratory </h3>
+
+The laboratory has two goals which are somewhat in conflict
+with each other: I have to teach you, and I have to check/grade you.
+The balance between them depends on how much effort I believe
+you put in when you made the task. <p>
+
+It is better that you come at the beginning of the lab:
+If everyone comes at the end, I will not be able to check 
+(and improve, see above) your programs. Therefore, come at the
+beginning. I give you a task for next week at the beginning, so
+that you don't have to waste your time while waiting.
+Another advantage of working/starting in the lab is that you can 
+ask questions. <p>
+
+Tasks must be shown on a Linux computer. My experience is that
+in Windows, the integrated environments are not standard conforming,
+use most of the screen area for showing all the fancy options of the
+integrated environment itself instead of code, error messages and output. 
+I am interested in your code and in its output. <p>
+
+If you bring your own
+laptop, try to read the screen from 1 meter distance under an angle of 
+45 degrees. If you cannot, you should use the computers in the lab. <p> 
+
+Windows is designed for users who do not understand how a computer works.
+In order to cope with such users, it is designed in such a way that
+the user has no real control over the computer, since that only 
+result in damage.
+The main decisions are taken by the programs, that have too much
+freedom to do what they like. As a consequence, you don't know
+where files are stored, what are the access rights, what programs are
+being installed, what programs are running and how much resources
+they are using, what data is being sent over the internet to whom, etc.
+Since for a professional this is a non-acceptable situation, we
+will use Linux from the beginning. 
+<p>
+
+<h3> Useful Sites </h3>
+
+<ul> 
+<li>
+   I usually use <a href = "http://www.cplusplus.com/">this site</a>
+   for reference about STL, but there is not much info on C++ 11 yet. 
+<li>
+   Homepage of Bjarne Stroustrup about
+   <a href= "http://www.stroustrup.com/C++11FAQ.html">C++ 11</a>. 
+   I will freely use C++ 11 in exercises, because it is already 2013. 
+<li>
+   The wikipedia page about 
+   <a href = "http://en.wikipedia.org/wiki/C%2B%2B11"> C++ 11</a>
+   is also quite good. 
+<li>
+   Good explanation of
+   <a href = "http://thbecker.net/articles/rvalue_references/section_01.html">
+   R-value references
+   </a>. 
+</ul>
+
+<h3> Exercises </h3>
+
+<ol>
+<li>
+   Exercise <a href = "nr01.pdf"> number 1 </a>.
+   <a href = "linux.pdf">Basics of Linux</a>.
+<li>
+   Exercise <a href = "nr02.pdf"> number 2 </a>.
+   You need the following files:
+   <a href = "nr02">nr02</a>.
+<li>
+   Exercise <a href = "nr03.pdf"> number 3 </a>.
+   Read this <a href = "lifecycle.pdf">this explanation</a>. 
+<li>
+   More about the lifecycle operators. We are going to implement
+   trees in C++, in order to show that there is no need for
+   esoteric programming languages. 
+   Exercise <a href = "nr04.pdf"> number 4</a>. 
+   You need the following files:   
+   <a href = "nr04">nr04</a>.
+<li>
+   <a href = "nr05.pdf">Exercise 5</a> is a lot easier than 4. 
+   We use class tree of the previous exercise, to build a differentation 
+   program. Also, we will have a look at R-value references. 
+   (There will be a systematic treatment in a later exercise.) 
+
+<li>
+   <a href = "nr06.pdf">Exercise 6</a>. 
+   The main containers in STL (vector and list).
+   Correct use of iterators. 
+<li>
+   <a href = "nr07.pdf">Exercise 7</a> 
+   about map and unordered_map.
+
+<li>
+   It seems there will be no thursday lab.
+   Tuesday will take place. 
+<li>
+   <a href = "nr08.pdf">Exercise 8</a> about inheritance. 
+<li>
+   30.04.2013. No Lab! <br> 
+   02.05.2013. Also no lab. <br> 
+
+<li>
+   <a href = "nr09.pdf">Exercise 9</a> about the
+   15-puzzle. 
+   <a href = "fifteen.cpp">This</a> is additional code that you
+   need for the task. 
+
+<li>
+   <a href = "nr10.pdf">Exercise 10</a> about templates.
+
+<li>
+   <a href = "nr11.pdf">Exercise 11</a> about 
+   Conway's <a href = "http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">
+   Game of Life
+   </a>. 
+
+<li>
+   <a href ="nr12.pdf">Exercise 12</a> about
+   <a href = "http://en.wikipedia.org/wiki/Rubik%27s_Cube">Rubik's Cube</a>.
+  
+   You need <a href = "rubik/assert.h"> assert.h </a>,
+   <a href = "rubik/rubik.cpp"> rubik.cpp </a>,
+   <a href = "rubik/rotation.h"> rotation.h </a>,
+   <a href = "rubik/sequence.h"> sequence.h </a>,
+   <a href = "rubik/sequence.cpp"> sequence.cpp </a>,
+   <a href = "rubik/cube.h"> cube.h </a>,
+   and
+   <a href = "rubik/cube.cpp"> cube.cpp </a>.
+
+   <a href = "rubik/explanation.pdf"> This file </a> contains explanation
+   of the notation that I use for rotations of the cube.
+
+   If you want to plot the state of a cube, you need switch on
+   the #if-s in the code, and use the
+   <a href = "rubik/Makefile2"> following makefile </a>.
+   It works in room 7, and will work on room 137. 
+   If you don't want to use graphics, use
+   <a href = "rubik/Makefile"> this makefile </a>.
+
+   This is the last task. 
+</ol>
+
+</body>
+</html>
+
+
