@@ -7,7 +7,7 @@ My solutions to tasks for **C++ course** at University
 Usage
 =====
 
-You need C++ compiler with support for C++11. I have tested these programs for both: *clang* and *clang*. If you use *clang* just changing *g++* in each Makefile for *clang++* should be enough.
+You need C++ compiler with support for C++11. I have tested these programs for both: *gcc* and *clang*. If you use *clang* changing *g++* in each Makefile for *clang++* should be enough.
 
 To compile each task use
 
